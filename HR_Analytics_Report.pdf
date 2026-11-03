@@ -1,0 +1,322 @@
+HR Analytics Dashboard
+Employee Workforce & Attrition Analysis
+
+Prepared by: Shivani Jogi
+Tools: Python | SQL | Excel | Power BI
+
+1. Executive Summary
+
+This project presents an end-to-end HR Analytics solution designed to analyze employee workforce data and identify patterns related to employee attrition, salary, demographics, departments, job roles, and employee tenure.
+
+The project uses Python, SQL, Excel, and Power BI to transform raw employee data into meaningful business insights.
+
+An interactive Power BI dashboard was developed to help HR teams monitor important workforce KPIs, compare employee groups, analyze attrition patterns, and drill down into employee-level details.
+
+2. Business Problem
+
+Employee attrition is an important challenge for organizations because high employee turnover can increase recruitment costs, reduce productivity, affect team performance, and create workforce instability.
+
+HR teams often have large amounts of employee data but may not have an effective way to analyze this information and identify important workforce patterns.
+
+The organization needs a data-driven solution to answer questions such as:
+
+How many employees are currently in the organization?
+What is the overall employee attrition rate?
+Which departments have higher attrition?
+Which job roles experience greater employee turnover?
+How is the workforce distributed by gender and education?
+How does salary vary across departments and job roles?
+How does employee tenure relate to attrition?
+Which employee groups require further HR investigation?
+
+The purpose of this project is to convert employee data into clear, interactive, and actionable HR insights.
+
+3. Business Objectives
+
+The main objectives of the project are:
+
+Analyze the overall employee workforce.
+Measure employee attrition and attrition rate.
+Identify departments with higher attrition.
+Analyze employee distribution by gender.
+Analyze education and job-role distribution.
+Understand salary patterns across the organization.
+Analyze employee tenure and years at company.
+Identify workforce groups that may require further investigation.
+Build an interactive HR Analytics Dashboard.
+Provide data-driven recommendations for HR decision-making.
+4. Dataset Description
+
+The project uses an employee-level HR dataset containing information about employees, demographics, education, departments, job roles, salary, years at the company, and attrition status.
+
+Dataset Information
+Category	Examples
+Employee Information	Employee ID
+Demographics	Age, Gender
+Education	Education Level
+Organization	Department
+Job Information	Job Role
+Compensation	Salary
+Experience	Years at Company
+Employee Status	Attrition
+
+Total Records: 5,000 employees
+
+5. Project Methodology
+
+The project follows an end-to-end data analytics workflow:
+
+Raw HR Data
+     ↓
+Data Preparation
+     ↓
+Excel Analysis
+     ↓
+SQL Analysis
+     ↓
+Python Analysis
+     ↓
+Power BI Visualization
+     ↓
+HR Insights
+     ↓
+Business Recommendations
+6. Data Preparation
+
+The employee dataset was prepared before performing the analysis.
+
+The preparation process included:
+
+Reviewing the dataset structure
+Checking data types
+Checking for missing values
+Checking for duplicate records
+Reviewing categorical values
+Preparing the dataset for analysis
+Creating a structured dataset for Power BI
+
+The prepared dataset was then used across Excel, SQL, Python, and Power BI.
+
+7. Excel Analysis
+
+Excel was used for initial data exploration and analysis.
+
+The analysis included:
+
+Employee data exploration
+Filtering and sorting
+Pivot tables
+Department analysis
+Gender analysis
+Attrition analysis
+Salary analysis
+Employee tenure analysis
+Charts and summary tables
+
+Excel provided an initial understanding of workforce patterns before performing deeper analysis using SQL and Python.
+
+8. SQL Analysis
+
+SQL was used to perform structured analysis on the HR dataset.
+
+The analysis focused on:
+
+Total employee count
+Attrition count
+Attrition rate
+Department-wise employee distribution
+Department-wise attrition
+Gender distribution
+Salary analysis
+Years-at-company analysis
+Job role analysis
+
+SQL helped transform raw employee records into business-focused metrics that could be used for HR decision-making.
+
+9. Python Analysis
+
+Python was used for data processing and exploratory data analysis.
+
+Libraries used:
+
+Pandas
+NumPy
+Matplotlib
+Seaborn
+
+Python was used to:
+
+Load and inspect the dataset
+Perform data manipulation
+Group and aggregate employee data
+Analyze workforce patterns
+Analyze attrition
+Create visualizations
+Validate analytical findings
+10. Power BI Dashboard
+
+Power BI was used to create the final interactive HR Analytics Dashboard.
+
+The dashboard provides a centralized view of important HR metrics and allows users to interact with the data through filters, charts, KPIs, and drill-through functionality.
+
+Key KPIs
+Total Employees
+Attrition Rate
+Average Salary
+Department-wise Attrition
+Gender Distribution
+Years at Company
+11. Dashboard Pages
+Page 1 — HR Overview
+
+The HR Overview page provides a high-level summary of the organization's workforce.
+
+It contains key HR KPIs and visualizations that allow management to quickly understand the overall employee situation.
+
+Dashboard Screenshot:
+
+Insert Page 1 screenshot here
+
+Page 2 — Employee Analysis
+
+This page focuses on employee characteristics and workforce distribution.
+
+The analysis includes areas such as:
+
+Department
+Gender
+Education
+Job Role
+Employee distribution
+
+Dashboard Screenshot:
+
+Insert Page 2 screenshot here
+
+Page 3 — Attrition Analysis
+
+This page focuses on employee attrition patterns.
+
+It helps identify differences in employee turnover across departments and other employee categories.
+
+Dashboard Screenshot:
+
+Insert Page 3 screenshot here
+
+Page 4 — Employee Details
+
+The Employee Details page is designed as a Drill-through page.
+
+Users can select an employee or relevant category from another dashboard page and navigate to the detailed employee information.
+
+This functionality allows HR users to move from a high-level workforce analysis to individual employee-level details.
+
+Dashboard Screenshot:
+
+Insert Page 4 screenshot here
+
+12. Key Business Insights
+
+The analysis provides insights into several important HR areas.
+
+Workforce Analysis
+
+The dashboard provides a consolidated view of the organization's employee population and workforce composition.
+
+Attrition Analysis
+
+Attrition analysis helps identify the proportion of employees leaving the organization and highlights employee groups or departments that may require further investigation.
+
+Department Analysis
+
+Comparing departments allows HR teams to identify areas with relatively higher employee turnover.
+
+Salary Analysis
+
+Salary analysis provides visibility into compensation patterns across departments and job roles.
+
+Gender Analysis
+
+Gender distribution provides an overview of workforce composition and allows HR teams to compare employee patterns across genders.
+
+Tenure Analysis
+
+Years-at-company analysis helps understand employee tenure and identify potential relationships between length of service and attrition.
+
+13. Business Recommendations
+
+Based on the analysis, the organization can consider the following actions:
+
+1. Investigate High-Attrition Departments
+
+HR teams should investigate departments with higher attrition to understand the underlying reasons for employee turnover.
+
+2. Review Compensation
+
+Salary patterns should be reviewed for roles and departments experiencing higher attrition.
+
+3. Strengthen Employee Retention
+
+Organizations can develop targeted retention strategies for employee groups with higher turnover.
+
+4. Focus on Employee Development
+
+Training, career progression, and professional development opportunities can help improve employee engagement and retention.
+
+5. Monitor Employee Tenure
+
+HR teams should monitor employees at different stages of their tenure to identify potential retention risks.
+
+6. Use Data for Continuous HR Monitoring
+
+The Power BI dashboard can be updated regularly to help HR teams monitor workforce KPIs and identify emerging trends.
+
+14. Project Outcome
+
+The project successfully developed an end-to-end HR Analytics solution using:
+
+Python → Excel → SQL → Power BI
+
+The solution transforms employee data into meaningful workforce and attrition insights.
+
+The interactive dashboard allows users to:
+
+Monitor HR KPIs
+Analyze employee demographics
+Compare departments
+Analyze attrition
+Explore salary patterns
+Analyze employee tenure
+Drill down into employee details
+15. Skills Demonstrated
+Technical Skills
+Python
+Pandas
+NumPy
+SQL
+MySQL
+Excel
+Power BI
+DAX
+Data Cleaning
+Data Visualization
+Dashboard Development
+Drill-through
+Analytical Skills
+HR Analytics
+Workforce Analysis
+Attrition Analysis
+KPI Development
+Exploratory Data Analysis
+Business Analysis
+Insight Generation
+Business Recommendations
+16. Conclusion
+
+The HR Analytics Dashboard demonstrates how data analytics can be used to support human resource decision-making.
+
+By combining Excel, SQL, Python, and Power BI, the project provides an end-to-end approach for analyzing employee workforce data.
+
+The final Power BI dashboard transforms complex employee information into an easy-to-understand interactive reporting solution. It enables HR teams to monitor important KPIs, analyze attrition patterns, compare workforce segments, and explore employee-level information through drill-through analysis.
+
+Overall, the project demonstrates practical skills required for an entry-level Data Analyst role, including data preparation, SQL analysis, Python-based exploratory analysis, Excel reporting, Power BI dashboard development, and business insight generation.
