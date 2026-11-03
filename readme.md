@@ -156,29 +156,6 @@ HR-Analytics/
 
 * Business Reporting
 
-## Dashboard Preview
-
-### HR Overview
-
-![HR Overview Dashboard](Images/HR_Overview.png)
-
-### Employee Analysis
-
-![Employee Analysis Dashboard](Images/Employee_Analysis.png)
-
-### Attrition Analysis
-
-![Attrition Analysis Dashboard](Images/Attrition_Analysis.png)
-
-### Employee Details
-
-![Employee Details Dashboard](Images/Employee_Details.png)
-
-## Project Report
-
-The detailed project report is available in the `Reports` folder.
-
-[View HR Analytics Project Report](Reports/HR_Analytics_Report.pdf)
 
 ## Outcome
 
